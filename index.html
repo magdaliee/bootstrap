@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bootstrap JS</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"> <img src="http://i65.tinypic.com/2zf3jwi.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav nav-tabs">
+						<li class="active"><a href="#home">Home</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#ourclients">Our clients</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">	
+							<input type="text" class="form-control" placeholder="search">
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<section class="carousel">
+			<div class="container">
+				<div id="mycarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#mycarousel" data-slide-to="0" class="active">
+						<li data-target="#mycarousel" data-slide-to="1">
+						<li data-target="#mycarousel" data-slide-to="2">
+						<li data-target="#mycarousel" data-slide-to="3">
+						<li data-target="#mycarousel" data-slide-to="4">
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active example1">
+						</div>
+						<div class="item example2">
+						</div>
+						<div class="item example3">
+						</div>
+						<div class="item example4">
+						</div>
+						<div class="item example5">
+						</div>
+					</div>
+					<a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					 	<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+      					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      					<span class="sr-only">Next</span>
+    				</a>
+				</div>
+			</div>
+		</section>
+		<section class="tabs">
+			<div class="container">
+				<ul class="nav nav-tabs nav-justified">
+					<li class="active"><a data-toggle="tab" href="#products">Products</a></li>
+					<li><a data-toggle="tab" href="#developers">Developers</a></li>
+					<li><a data-toggle="tab" href="#marketplace">Marketplace</a></li>
+					<li><a data-toggle="tab" href="#casestudies">Case studies</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="products" class="tab-pane fade in active">
+						<h3>PRODUCTS</h3>
+						<p>IBM Cloud ensures seamless integration into public and private cloud environments. The infrastructure is secure, scalable, and flexible, providing customized enterprise solutions that have made IBM Cloud the hybrid cloud market leader.</p>
+					</div>
+					<div id="developers" class="tab-pane fade">
+						<h3>DEVELOPERS</h3>
+						<p>Staying current is hard work. The developerWorks editors can make it a little easier. Each month we hand-pick the best cloud-computing tutorials, videos, announcements, and events -- and package them in a newsletter delivered to your in-box.</p>
+					</div>
+					<div id="marketplace" class="tab-pane fade">
+						<h3>MARKETPLACE</h3>
+						<p>BM App Connect Professional is a multi-tenant, cloud-based platform for rapidly integrating cloud applications, on-premises applications, and enterprise systems in a hybrid environment via a hosted cloud solution. </p>
+					</div>
+					<div id="casestudies" class="tab-pane fade">
+						<h3>CASE STUDIES</h3>
+						<p>Our customers are highly appreciative that we are able to provide a service directly to their employees.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="modal-section">
+			<div class="container">
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#more">Discover more about our company
+				</button>
+				<div id="more" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4>Who is IBM?</h4>
+							</div>
+							<div class="modal-body">
+								<p>Digital is the wires, but digital intelligence, or artificial intelligence as some people call it, is about much more than that. This next decade is about how you combine those and become a cognitive business. It’s the dawn of a new era.</p>
+							</div>
+							<div class="modal-footer">
+								<p>Innovation is in IBM’s DNA, bringing new approaches to customers, the company and the world at large. </p>
+									<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</section>
+		<section class="country-section">
+			<div class="container">
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="country1" data-toggle="dropdown">Country
+					<span class="caret"></span></button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="country1">
+						<li role="choose"><a data-toggle="tooltip" data-placement="right" title="Berlin" role="menuitem" href="#">Germany</a></li>
+						<li role="choose"><a data-toggle="tooltip" data-placement="right" title="Paris" role="menuitem" href="#">France</a></li>
+						<li role="choose"><a data-toggle="tooltip" data-placement="right" title="New York" role="menuitem" href="#">US</a></li>
+						<li role="choose"><a data-toggle="tooltip" data-placement="right" title="London" role="menuitem" href="#">UK</a></li>
+						<li role="choose"><a data-toggle="tooltip" data-placement="right" title="Sydney" role="menuitem" href="#">Australia</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<h4>IBM 2017</h4>
+			</div>
+		</footer>
+	</body>
+</html>

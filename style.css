@@ -1,0 +1,91 @@
+body {
+	background-color: #A7A7A7;
+}
+
+section> .container {
+	margin: 20px auto;
+}
+
+nav img {
+	height: 40px;
+	width: 100px;
+	position: absolute;
+	top: 5px;
+	left: 20px;
+} 
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+	padding: 0;
+	height: 50px;
+}
+
+.collapse.navbar-collapse .tab-content .tab-pane p {
+	padding: 17px 0;
+}
+
+[class*="example"] {
+	height: calc(100vh - 53px);
+}
+
+.example1 {
+	background-image: url("https://static.pexels.com/photos/313736/pexels-photo-313736.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.example2 {
+	background-image: url("https://static.pexels.com/photos/247932/pexels-photo-247932.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.example3 {
+	background-image: url("https://static.pexels.com/photos/7374/startup-photos.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.example4 {
+	background-image: url("https://static.pexels.com/photos/28094/pexels-photo-28094.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.example5 {
+	background-image: url("https://static.pexels.com/photos/7375/startup-photos.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+section.tabs {
+	margin: 20px auto;
+}
+
+ul.dropdown-menu {
+	margin-bottom: 20px;
+}
+
+.modal-section .container, footer {
+	text-align: center;
+}
+
+@media (min-width:992px) {
+	ul.nav.navbar-nav.nav-tabs {
+		margin-left: 100px;
+	}
+	body {
+		padding-top: 52px;
+	}
+	div.dropdown {
+	position: relative;
+	}
+
+	.dropdown ul.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 43%;
+	}
+	.country-section .container {
+		text-align: center;
+	}
+}
